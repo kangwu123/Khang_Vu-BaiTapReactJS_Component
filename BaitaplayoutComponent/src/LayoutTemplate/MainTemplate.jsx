@@ -1,8 +1,14 @@
-import React from 'react'
+import HeaderComponent from './Header/HeaderComponent'
+import BodyComponent from './Body/BodyComponent'
+import FooterComponent from './Footer/FooterComponent'
 
 const MainTemplate = () => {
   return (
-    <div>MainTemplate</div>
+    <div>
+      <HeaderComponent />
+      <BodyComponent />
+      <FooterComponent />
+    </div>
   )
 }
 

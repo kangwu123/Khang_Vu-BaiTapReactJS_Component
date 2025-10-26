@@ -1,8 +1,12 @@
-import React from 'react'
+import BannerComponent from './Banner/BannerComponent'
+import ItemsComponent from './Items/ItemsComponent'
 
 const BodyComponent = () => {
   return (
-    <div>BodyComponent</div>
+    <div className="container mx-auto mx-5">
+      <BannerComponent />
+      <ItemsComponent />
+    </div>
   )
 }
 
