@@ -2,70 +2,74 @@ import React from 'react'
 
 const ItemsComponent = () => {
     return (
-        <div className='flex justify-between item-center gap-8 mt-5'>
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img className="rounded-t-lg" src="https://s3-alpha.figma.com/hub/file/3704070500/0b30a104-c787-461c-a97a-932456b739a7-cover.png" width={500} height={325} alt='card-pic' />
-                </a>
-                <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Card Title</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni vel nobis rerum et non cum voluptatum saepe molestias quas! Magnam animi natus fuga, maiores sint ea expedita nesciunt iste.
-                    </p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Find Out More!
-                    </a>
-                </div>
-            </div>
+        <div>
+            <section className="pt-4">
+                <div className="container px-lg-5">
+                    {/* Page Features*/}
+                    <div className="row gx-lg-5">
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-collection" /></div>
+                                    <h2 className="fs-4 fw-bold">Fresh new layout</h2>
+                                    <p className="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img className="rounded-t-lg" src="https://s3-alpha.figma.com/hub/file/3704070500/0b30a104-c787-461c-a97a-932456b739a7-cover.png" width={500} height={325} alt='card-pic' />
-                </a>
-                <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Card Title</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni vel nobis rerum et non cum voluptatum saepe molestias quas! Magnam animi natus fuga, maiores sint ea expedita nesciunt iste.
-                    </p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Find Out More!
-                    </a>
-                </div>
-            </div>
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-cloud-download" /></div>
+                                    <h2 className="fs-4 fw-bold">Free to download</h2>
+                                    <p className="mb-0">As always, Start Bootstrap has a powerful collectin of free templates.</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img className="rounded-t-lg" src="https://s3-alpha.figma.com/hub/file/3704070500/0b30a104-c787-461c-a97a-932456b739a7-cover.png" width={500} height={325} alt='card-pic' />
-                </a>
-                <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Card Title</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni vel nobis rerum et non cum voluptatum saepe molestias quas! Magnam animi natus fuga, maiores sint ea expedita nesciunt iste.
-                    </p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Find Out More!
-                    </a>
-                </div>
-            </div>
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-card-heading" /></div>
+                                    <h2 className="fs-4 fw-bold">Jumbotron hero header</h2>
+                                    <p className="mb-0">The heroic part of this template is the jumbotron hero header!</p>
+                                </div>
+                            </div>
+                        </div>
 
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img className="rounded-t-lg" src="https://s3-alpha.figma.com/hub/file/3704070500/0b30a104-c787-461c-a97a-932456b739a7-cover.png" width={500} height={325} alt='card-pic' />
-                </a>
-                <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Card Title</h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam magni vel nobis rerum et non cum voluptatum saepe molestias quas! Magnam animi natus fuga, maiores sint ea expedita nesciunt iste.
-                    </p>
-                    <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Find Out More!
-                    </a>
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-bootstrap" /></div>
+                                    <h2 className="fs-4 fw-bold">Feature boxes</h2>
+                                    <p className="mb-0">We've created some custom feature boxes using Bootstrap icons!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-code" /></div>
+                                    <h2 className="fs-4 fw-bold">Simple clean code</h2>
+                                    <p className="mb-0">We keep our dependencies up to date and squash bugs as they come!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-xxl-4 mb-5">
+                            <div className="card bg-light border-0 h-100">
+                                <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i className="bi bi-patch-check" /></div>
+                                    <h2 className="fs-4 fw-bold">A name you trust</h2>
+                                    <p className="mb-0">Start Bootstrap has been the leader in free Bootstrap templates since 2013!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }

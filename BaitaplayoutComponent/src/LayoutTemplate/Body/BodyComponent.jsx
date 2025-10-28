@@ -3,7 +3,7 @@ import ItemsComponent from './Items/ItemsComponent'
 
 const BodyComponent = () => {
   return (
-    <div className="container mx-auto mx-5">
+    <div>
       <BannerComponent />
       <ItemsComponent />
     </div>

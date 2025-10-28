@@ -1,12 +1,11 @@
-import './App.css'
+import React from 'react'
 import MainTemplate from './LayoutTemplate/MainTemplate'
 
-function App() {
+const App = () => {
   return (
     <div>
-       <MainTemplate />
+      <MainTemplate />
     </div>
   )
 }
-
 export default App
